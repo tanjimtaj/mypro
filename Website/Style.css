@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.site-header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+}
+.Logo{
+    width: 50%;
+    height: 100px;
+    font-size: large;
+}
+.Logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+}
+.Menu{
+    width: 50%;
+    height: 100px;
+}
+.Menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Menu ul li{
+    list-style: none;
+    font-size: 15px;
+}
+section{
+    display: flex;
+}
+.Left-side{
+  width: 45%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 50px;
+  padding-left: 20px;
+}
+.Left-side img{
+    width: 550px;
+    height: auto;
+}
+.Right-side{
+    width: 55%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 180px;
+    padding: 40px;
+}
+.Right-side h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.Right-side p{
+    font-size: 1.1rem;
+    padding: 30px 0;
+}
+.Right-side button{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    border-radius: 4px;
+    padding: 20px 35px;
+}
+.Right-side button:hover{
+    background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
